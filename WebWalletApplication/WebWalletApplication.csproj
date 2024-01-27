@@ -8,7 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WalletFuncLogicContracts\WalletFuncContractsLogic.csproj" />
+    <ProjectReference Include="..\WalletFuncLogic\WalletFuncLogic.csproj" />
+    <ProjectReference Include="..\WalletRepository\WalletFunctionRepository.csproj" />
   </ItemGroup>
 
 </Project>

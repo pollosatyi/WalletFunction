@@ -31,10 +31,14 @@
                 {
                     case 1:
                         Console.WriteLine("12122112");
+                        
+
                         break;
                     case 2:
                         break;
                     default: Console.WriteLine("Неверный ввод"); break;
                 }
+            }
+        }
     }
 }

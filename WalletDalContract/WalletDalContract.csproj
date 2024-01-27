@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\WalletDalContract\WalletDalContract.csproj" />
     <ProjectReference Include="..\WalletFunction\WalletFunction.csproj" />
   </ItemGroup>
 

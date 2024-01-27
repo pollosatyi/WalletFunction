@@ -1,8 +1,10 @@
-﻿using WalletFunction;
+﻿using Microsoft.Data.SqlClient;
+using WalletDalContract;
+using WalletFunction;
 
-namespace WalletRepository
+namespace WalletRepositories
 {
-    public class WalletRepository
+    public class WalletRepository : IWalletRepository
     {
         public void Add(RubAccount rub)
         {
@@ -11,7 +13,7 @@ namespace WalletRepository
             // Создание подключения
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string sqlExpression = $"INSERT INTO Task (Name, Description) VALUES ({task.Name}, {task.Description})";
+                string sqlExpression = $"INSERT INTO Wallets (rub) VALUES ({rub.Rub})";
                 connection.Open();
 
                 SqlCommand command = new SqlCommand(sqlExpression, connection);

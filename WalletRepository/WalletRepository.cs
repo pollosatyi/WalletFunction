@@ -6,7 +6,7 @@ namespace WalletRepositories
 {
     public class WalletRepository : IWalletRepository
     {
-        public void Add(RubAccount rub)
+        public void Add(RubBalance rub)
         {
             string connectionString = "Data Source=DESKTOP-M2QA1DM\\SQLEXPRESS;Initial Catalog=walbase;User ID=User;Password=;Encrypt=False;Trusted_Connection=True";
 

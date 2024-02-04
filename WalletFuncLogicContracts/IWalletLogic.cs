@@ -10,7 +10,7 @@ namespace WalletFuncLogicContracts
 {
     public interface IWalletLogic
     {
-        public void Create(RubAccount rub);
+        public void Create(RubBalance rub);
 
     }
 }

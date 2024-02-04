@@ -9,6 +9,6 @@ namespace WalletDalContract
 {
     public interface IWalletRepository
     {
-        public void Add(RubAccount rub);
+        public void Add(RubBalance rub);
     }
 }

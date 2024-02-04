@@ -14,7 +14,7 @@ namespace WalletFuncLogic
             _walletRepository = walletRepository;
         }
 
-        public void Create(RubAccount rub)
+        public void Create(RubBalance rub)
         {
             _walletRepository.Add(rub);
         }

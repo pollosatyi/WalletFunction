@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WalletFunction;
+using WalletsEnum;
 
-namespace WalletDalContract
+namespace WalletFunction
 {
-    public interface IWalletRepository
+    public class Account
     {
-        //public void Add(RubBalance rub);
+        public List<Amount> Amounts { get; set; }
     }
 }

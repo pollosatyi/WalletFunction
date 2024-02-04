@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WalletFunction
 {
-    public class RubAccount
+    public class RubBalance
     {
        public double Rub {  get; set; }
     }

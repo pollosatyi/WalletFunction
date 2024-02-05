@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WalletFuncLogicContracts;
 using WalletFunction;
+using static WalletFunction.Amount;
 
 
 namespace WebWalletApplication.Controllers
@@ -17,9 +18,9 @@ namespace WebWalletApplication.Controllers
             _walletLogic = walletLogic;
         }
         [HttpPost]
-        public void Post([FromBody] RubBalance rub)
+        public void Post([FromBody] AmountType type)
         {
-            _walletLogic.Create(rub);
+            _walletLogic.Create(type);
         }
           
     }

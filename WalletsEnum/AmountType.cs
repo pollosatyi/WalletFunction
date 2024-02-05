@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace WalletsEnum
 {
-    public enum AmountType
-    {
-        rub=1,
-        eur,
-        usd
-    }
+    //public enum AmountType
+    //{
+    //    rub=1,
+    //    eur,
+    //    usd
+    //}
 }

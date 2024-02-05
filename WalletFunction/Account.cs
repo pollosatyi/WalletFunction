@@ -9,6 +9,6 @@ namespace WalletFunction
 {
     public class Account
     {
-        public List<Amount> Amounts { get; set; }
+        public  List<Amount> Amounts { get; set; }
     }
 }

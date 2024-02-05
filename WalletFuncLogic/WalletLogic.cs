@@ -2,6 +2,7 @@
 using WalletDalContract;
 using WalletFuncLogicContracts;
 using WalletFunction;
+using WalletsEnum;
 
 namespace WalletFuncLogic
 {
@@ -14,9 +15,10 @@ namespace WalletFuncLogic
             _walletRepository = walletRepository;
         }
 
-        public void Create(RubBalance rub)
+        public void Create(Amount.AmountType type)
         {
-            _walletRepository.Add(rub);
+           
+            _walletRepository.Add(type);
         }
     }
 }

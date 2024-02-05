@@ -2,7 +2,6 @@
 using WalletDalContract;
 using WalletFuncLogicContracts;
 using WalletFunction;
-using WalletsEnum;
 
 namespace WalletFuncLogic
 {

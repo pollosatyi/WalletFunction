@@ -10,10 +10,17 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{56A3E3F8-19E3-4C64-A1A2-75016BE78940}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebWalletApplication", "WebWalletApplication\WebWalletApplication.csproj", "{FEAC062F-64BF-491A-B535-7F9354398E43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17BDFDE6-1D94-4A36-AA53-008A6A7C1052} = {17BDFDE6-1D94-4A36-AA53-008A6A7C1052}
+		{CE7FF063-2EFA-460C-AFE8-833255E3527D} = {CE7FF063-2EFA-460C-AFE8-833255E3527D}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{EEE0C7A0-DE1F-420A-B6A6-7840F08BE70F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletFunctionRepository", "WalletRepository\WalletFunctionRepository.csproj", "{269699A8-E295-46D3-8440-0B4F62B786E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3AF2ECC-4090-47DD-82BA-346522060673} = {D3AF2ECC-4090-47DD-82BA-346522060673}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletDalContract", "WalletDalContract\WalletDalContract.csproj", "{17BDFDE6-1D94-4A36-AA53-008A6A7C1052}"
 EndProject
